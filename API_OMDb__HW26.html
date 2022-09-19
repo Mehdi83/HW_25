@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+    <STYLE>
+        form,div{ display: inline; font-size: 26px; font-family: "Trebuchet MS", Verdana, sans-serif; }
+        button{  box-shadow: 0 8px 6px 0 rgba(0,0,0,0.24), 0 7px 5px 0 rgba(0,0,0,0.19);}
+        button:hover{  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 7px 5px 0 rgba(0,0,0,0.19);}
+        button{background-color: #44ff00;  color: black;  font-size: 16px;  padding: 6px 20px; margin: 10px; border: none;
+                cursor: pointer;  border-radius: 5px;  text-align: center;}
+
+      </STYLE>
+
+<body>  
+ 
+
+    <h1>OMDb API</h1>
+
+    <label for="fname">Search for movie by title: </label>                       
+    <input placeholder="Movie's name" type="text" id="MyValue" name="fname">            
+    <button  id="get_api_res_btn">"Get Film Info"</Label></button>
+    
+    <br><br><br> 
+    <div id="api_result" display: inline ></div><br>
+    <div id="api_result2" display: inline></div><br>
+    <div id="api_result3" display: inline></div><br><br><br>
+
+<p>Click the "Get Film Info" button about movie.</p>
+
+<script src="app_OMD.js"> </script>
+
+
+
+
+</body>
+</html>
